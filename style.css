@@ -1,0 +1,59 @@
+body{
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;}
+.fio {
+    color: blueviolet;
+    text-align: center;
+
+}
+
+#myfhoto{
+    width: 400px;
+    display: block;
+}
+
+label {
+    display: block;
+}
+
+input[type="checkbox"]{
+    display: inline;
+}
+
+
+.skillist li{
+    font-size: 25 px;
+    color: green;
+    transition: .5s;
+}
+
+.skillist li:first-child{
+    color: red;
+    cursor: pointer;
+    
+}
+
+.skillist li:last-child{
+    color: blue;
+}
+
+.skillist li:nth-child(2n+2){
+    color: purple;
+}
+
+.skillist li:hover{
+    color: yellow;
+    cursor: pointer;
+
+}
+
+.skillist li:active{
+    color: aquamarine;
+}
+ul {
+    font-size: 35px;
+}
+
+.skillist li::after{
+    content: "👽";
+}
